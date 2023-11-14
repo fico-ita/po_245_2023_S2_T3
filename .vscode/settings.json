@@ -4,6 +4,7 @@
         88
     ],
     "editor.wordWrapColumn": 88,
+    "python.analysis.typeCheckingMode": "basic",
     "python.formatting.provider": "black",
     "python.linting.enabled": true
 }
