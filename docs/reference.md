@@ -2,5 +2,20 @@ This part of the project documentation focuses on an **information-oriented** ap
 Use it as a reference for the technical implementation of the `calculator` project code.
 
 ## Calculations
-
 ::: fico.calculations
+## Back_test
+::: fico.Back_test
+## Backtesting_export_excel
+::: fico.Backtesting_export_excel
+## Backtesting_Module_generate_html
+::: fico.Backtesting_Module_generate_html
+## Baixar_dados_comdinheiro
+::: fico.Baixar_dados_comdinheiro
+## Func_construir_portfolio
+::: fico.Func_construir_portfolio
+## load_data
+::: fico.load_data
+## Tratar_dados_Fund
+::: fico.Tratar_dados_Fund
+## Tratar_SELIC
+::: fico.Tratar_SELIC
