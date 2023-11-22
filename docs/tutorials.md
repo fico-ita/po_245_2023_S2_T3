@@ -1,4 +1,6 @@
 
+
+
 ## Tutorial: Backtesting e Geração de Relatório HTML
 
 Nesta etapa, realizaremos o backtesting da estratégia e geraremos um relatório HTML para análise.
@@ -25,7 +27,14 @@ data_inicial = datetime(2013, 1, 1)
 data_final = datetime(2023, 11, 3)
 
 # Executar backtesting
-retorno_carteira, serie_IBOV, _, _, _, _, _, _ = Func_retorno_carteira(
+(retorno_carteira,
+    serie_IBOV,
+    serie_LFTS3,
+    df_portifolio_total,
+    df_benchmark,
+    indices_benchmark,
+    df_exportar,
+    info_verificao_total, )= Func_retorno_carteira(
     data_simulacao_inicial=data_inicial,
     data_simulacao_final=data_final,
     Capital_Inicial=100000,
@@ -115,4 +124,4 @@ Ao seguir esses passos, você terá os resultados do backtesting exportados para
 Este tutorial é parte do processo de análise de dados no contexto do projeto.
 
 ---
-**Próximo Passo:** [Tutorial - Análise dos Resultados e Otimização da Estratégia](#) (A ser criado)
+
