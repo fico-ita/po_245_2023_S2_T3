@@ -58,7 +58,15 @@ Similar ao README.md
 
 ## Agradecimento
 
-Similar ao README.md
+Quero expressar minha sincera gratidão aos Professores Elton Sbruzzi, Vitor Curtis e Michel Carlo Rodrigues Leles, cujo conhecimento, orientação e apoio foram fundamentais para o desenvolvimento deste projeto. Seu comprometimento com a educação e dedicação aos alunos são fontes de inspiração.
+
+Também gostaria de estender meus agradecimentos ao monitor Renan Lima por seu valioso auxílio, paciência e contribuições que enriqueceram significativamente o processo de aprendizado.
+
+Obrigado por serem uma parte essencial do meu percurso acadêmico e por tornarem possível a realização deste projeto.
+
+Com gratidão,
+
+Paulo Fernando Guimarães Tupinambá 
 
 ## Como citar
 

@@ -1,11 +1,13 @@
 # Estrutura FICO
 
-Documentação do pacote XXX no Github.
+Documentação do pacote FundAlphaPortfolioOptimizer no Github.
+
 Utilize o README.md mais como um ponteiro para a documentação oficial e instruções
 pertinentes.
 
 Não esqueça de preencher as seções *Como citar* e *Agradecimento*, citando
-explicitamente as empresas parceiras que apoiaram a solução.
+explicitamente as empresas 
+parceiras que apoiaram a solução.
 
 # TODO
 
@@ -121,8 +123,16 @@ projeto. Informe seus links de acesso.
 
 ## Agradecimento
 
-Escolha um bom nome de projeto e adicione os logos dos apoiadores para deixar sua
-documentação com uma imagem mais profissional.
+
+Quero expressar minha sincera gratidão aos Professores Elton Sbruzzi, Vitor Curtis e Michel Carlo Rodrigues Leles, cujo conhecimento, orientação e apoio foram fundamentais para o desenvolvimento deste projeto. Seu comprometimento com a educação e dedicação aos alunos são fontes de inspiração.
+
+Também gostaria de estender meus agradecimentos ao monitor Renan Lima por seu valioso auxílio, paciência e contribuições que enriqueceram significativamente o processo de aprendizado.
+
+Obrigado por serem uma parte essencial do meu percurso acadêmico e por tornarem possível a realização deste projeto.
+
+Com gratidão,
+
+Paulo Fernando Guimarães Tupinambá 
 
 ## Como citar
 
