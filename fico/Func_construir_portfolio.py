@@ -424,16 +424,14 @@ def ret_HPR(df_acao, df_multiplos, df_CAGR, razao_Selic, df_benchmark):
     # HPR -> Holding period return
     # HPR = (Preço final - Preço inicial + Dividendos) / Preço inicial
 
-    # Calculando CAGR de longo prazo e medio prazo em função do CAGR_ordenado
-    if CAGR_ordenado == 1:
-        CAGR_longo = CAGR_Medio_6
-        CAGR_curto = CAGR_Medio_4 * 0.7 + CAGR_Medio_2 * 0.3
-    elif CAGR_ordenado == 0:
-        CAGR_longo = CAGR_Medio_8
-        CAGR_curto = CAGR_Medio_4
-    else:
-        CAGR_longo = CAGR_Medio_8 * 0.7 + CAGR_Medio_6 * 0.3
-        CAGR_curto = CAGR_Medio_4
+    # Vetor com os dados de CAGR
+    vetor_CAGR = [CAGR_Medio_8, CAGR_Medio_6, CAGR_Medio_4, CAGR_Medio_2]
+
+    # Calcular a média dos três maiores elementos
+    CAGR_max_media = np.mean(np.partition(vetor_CAGR, -3)[-3:])
+
+    # Calcular a mediana
+    CAGR_mediana = np.median(vetor_CAGR)
 
     # Se Cíclica seja mais conservador
     ciclica = False
@@ -443,16 +441,14 @@ def ret_HPR(df_acao, df_multiplos, df_CAGR, razao_Selic, df_benchmark):
     # Cálculo do  CAGR_util e DY_util
     if ciclica:
         ### Cálculo do CAGR_util
-        CAGR_util = CAGR_longo * (0.5 * Ind_alta_MM) + CAGR_Medio_min * (
-            1 - 0.5 * Ind_alta_MM
-        )
-
+        CAGR_util = CAGR_Medio_min
     else:
         ### Cálculo do CAGR_util
+
         CAGR_util = (
-            CAGR_longo * (0.3 + 0.3 * Ind_alta_MM)
-            + CAGR_curto * (0.4 * Ind_alta_MM)
-            + CAGR_Medio_min * (0.7 - 0.7 * Ind_alta_MM)
+            CAGR_mediana * (0.3 + np.sqrt(0.7) * Ind_alta_MM - 0.4 * Ind_alta_MM**2)
+            + CAGR_max_media * (np.sqrt(0.7) * Ind_alta_MM - 0.6 * Ind_alta_MM**2)
+            + CAGR_Medio_min * (np.sqrt(0.7) - 1 * Ind_alta_MM) ** 2
         )
 
     ### HPR_inicial

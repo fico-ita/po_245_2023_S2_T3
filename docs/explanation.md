@@ -54,11 +54,8 @@ O projeto procura otimizar o retorno sobre o capital investido, considerando nã
 
 Ao investir em ativos com crescimento sustentável ao longo do tempo, o projeto visa criar uma carteira equilibrada e resistente às flutuações do mercado. A análise de métricas fundamentais, como Lucro por Ação (LPA) e EBITDA por Ação, auxilia na seleção de ativos com histórico consistente de desempenho.
 
-### 6. **Penalizações por Múltiplos Elevados**
 
-Para evitar a influência de momentos de euforia no mercado, o projeto aplica penalizações a empresas cujos múltiplos (como P/L e EV/EBITDA) são significativamente mais altos do que sua média histórica. Isso contribui para uma seleção mais criteriosa, priorizando ativos que não estejam sujeitos a expectativas infladas.
-
-### 7. **Penalizações para Ativos com Alta Alavancagem**
+### 6. **Penalizações para Ativos com Alta Alavancagem**
 
 A presença de alta dívida pode impactar negativamente o desempenho de um ativo e aumentar sua vulnerabilidade a condições adversas de mercado. Nesse sentido, o projeto aplica penalizações para ativos com elevada alavancagem, considerando que altos níveis de endividamento podem comprometer a capacidade da empresa de gerar caixa e enfrentar desafios financeiros.
 

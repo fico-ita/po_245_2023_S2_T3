@@ -19,42 +19,55 @@ Leia a documentação do Mkdocs em [mkdocs.org](https://www.mkdocs.org).
 ## Organização da documentação
 
 Para a organização da documentação de usuário, baseie-se na proposta de
-[Diátaxis](https://diataxis.fr/), que consiste em 4 classes de documentos:
+[Diátaxis](https://diataxis.fr/), que consiste em 3 classes de documentos:
 
-1. Tutorials
-1. How-To guides
-1. Reference
-1. Explanation
 
-!!! warning
-    Não é obrigatório seguir Diátaxis. Ela serve apenas como guia.
+### Tutorials
 
-As documentações acima são pensadas para o leitor usuário da solução.
+A seção de tutoriais fornece orientações detalhadas sobre como utilizar o pacote FICO para análise e montagem de portfólio.
 
-Deve-se ainda considerar a documentação para fins acadêmicos e de engenharia de
-software, i.e., quando quem desenvolve o projeto é o leitor. Caso contrário,
-atualizações podem se tornar impraticáveis.
+1. Download e Tratamento dos Dados:
 
-Esta documentação possui grande intersecção com *Explanation*. A diferença é que o
-público de *Explanation* é o usuário da solução, enquanto na documentação acadêmica e
-para desenvolvimento o público alvo são os desenvolvedores e arquitetos da solução.
+   Este tutorial abrange o processo de obtenção e preparação dos dados fundamentais das ações necessários para a estratégia de montagem de portfólio. Saiba como baixar os dados da plataforma "comdinheiro" e realizar o tratamento necessário.
 
-Nesta documentação o foco é destacar as tomadas de decisão e organização da solução,
-preferencialmente apesentando um diagrama de componentes da solução e como eles se
-interagem. Em nossa disciplina, iremos incluir o artigo como forma de atingir estes
-objetivos.
+2. Backtesting da Estratégia:
 
-## Calculadora FICO
+   O segundo tutorial guia você através do processo de backtesting da estratégia de montagem de portfólio. Descubra como executar o backtesting e analisar os resultados para otimizar o portfólio.
+
+
+
+---
+
+
+
+### Reference
+
+A seção de referência fornece detalhes sobre todas as funções disponíveis no pacote FICO. Consulte esta seção para obter informações técnicas sobre a implementação e os parâmetros de cada função.
+
+---
+
+### Explanation
+
+Na seção de explicação, apresentamos o raciocínio por trás da construção da estratégia **FundAlphaPortfolioOptimizer**. Descubra as principais decisões tomadas durante o desenvolvimento, incluindo considerações sobre dados fundamentais, cálculos de retorno esperado, penalizações e a lógica por trás da otimização do portfólio para maximizar o índice de Sharpe. Este é um recurso valioso para entender a abordagem adotada e as premissas subjacentes à estratégia.
+
+---
+
+
+## FundAlphaPortfolioOptimizer
 
 ::: fico
 
+
 ## Projeto
 
-Adicione aqui o pdf do artigo.
+A proposta do projeto aborda a fundamentação teórica e os motivos que levaram à concepção deste projeto, respaldada por relatos históricos. Além disso, apresenta a elaboração de uma fórmula que contribui para o cálculo do retorno esperado de um ativo. O escopo do projeto foi delineado para abranger as ações contidas no índice IBOVESPA. A metodologia adotada na proposta de projeto busca estimar o retorno esperado do ativo com um maior grau de discricionariedade, uma vez que incorpora variações significativas de acordo com o setor.
 
-# Licença
+- [Proposta de Projeto](arquivos/PO245___Proposta_de_Projeto.pdf)
 
-Similar ao README.md
+O projeto final passou por algumas modificações, incluindo uma metodologia de cálculo do retorno esperado estabelecida de maneira menos dependente de discricionariedade. Os resultados, o tratamento de dados e os fundamentos estão devidamente esclarecidos na versão final.
+
+- [Projeto](arquivos/PO245___Versão_Final.pdf)
+
 
 ## Agradecimento
 
@@ -62,11 +75,14 @@ Quero expressar minha sincera gratidão aos Professores Elton Sbruzzi, Vitor Cur
 
 Também gostaria de estender meus agradecimentos ao monitor Renan Lima por seu valioso auxílio, paciência e contribuições que enriqueceram significativamente o processo de aprendizado.
 
+Agradeço especialmente à comdinheiro pela generosa disponibilização de dados úteis, que foram essenciais para o desenvolvimento e sucesso deste projeto.
+
 Obrigado por serem uma parte essencial do meu percurso acadêmico e por tornarem possível a realização deste projeto.
 
 Com gratidão,
 
-Paulo Fernando Guimarães Tupinambá 
+Paulo Fernando Guimarães Tupinambá
+
 
 ## Como citar
 

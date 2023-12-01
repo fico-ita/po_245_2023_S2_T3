@@ -2,7 +2,6 @@
 
 Módulos exportados por este pacote:
 
-- `calculations`: Provê várias operações matemáticas
 - `Back_test`: Faz o Back_test da Estratégia
 - `Backtesting_export_excel`: Exportar as posições e retornos dos ativos durante o Backtesting
 - `Backtesting_Module_generate_html`: Utiliza a biblioteca quantstats para montar o html do Backtesting
